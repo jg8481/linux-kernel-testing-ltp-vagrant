@@ -12,7 +12,7 @@ brew install --cask vagrant-manager
 
 After running the install commands above you can run the following from the root of this repo (same directory as the provided `Vagrantfile`. 
 
-`WARNING: Running this Vagrantfile for the first time will result in build times of almost 20 minutes or more depending on the specifications of your hardware. This is hard part of working with the LTP project.`
+`WARNING: Running this Vagrantfile for the first time will result in build times of almost 20 minutes or more depending on the specifications of your hardware. This is one of the hard parts of working with the LTP project.`
 
 ```
 vagrant up
