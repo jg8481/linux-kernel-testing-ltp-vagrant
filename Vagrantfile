@@ -18,6 +18,7 @@ SHELLSCRIPT
 
 Vagrant.configure("2") do |config|
   config.vm.box = "generic/ubuntu2204"
+  # config.vm.box = "kalilinux/rolling"
   config.vm.provider "virtualbox" do |vb|
     vb.name = "ltp-vagrant"
     vb.memory = "4096"
